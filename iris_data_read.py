@@ -10,3 +10,4 @@ Iris_Data['target'] = Iris_Data['target'].map({
     0: "setosa", 1: "versicolor", 2: "virginica"
 })
 print(Iris_Data)
+Iris_Data.to_csv('Iris_data.csv')
